@@ -45,5 +45,83 @@
        </ul>
 </article>
     
+    <article>
+      <h2>STAGING AND COMMIT</h2>
+      <ul>
+<li><h4>git add [file]</h4></li>
+<p>This command adds a file from the working tree to the Staging area / current branch.</p>
+<li><h4>git add *</h4></li>
+<p>This command adds one or more files from the working tree to the Staging area / current branch.</p> 
+<li><h4>git add.</h4></li>
+<p>Stages all files in the entire repository to the Staging area / current branch.</p>
+ <li><h4>git rm [file]This command deletes the existing file from your working directory.</h4></li>
+<p>This command deletes the existing file from your working directory.</p>
+<li><h4>git status</h4></li>
+<p>This command lists all the files that have to be committed.</p>
+<li><h4>git diff</h4></li>
+<p>This command shows the changed contents that aren't staged.</p>
+<li><h4>git diff --staged</h4></li>
+<p>This command shows the changed contents that are staged but not committed.</p>
+<li><h4>git commit -m “[commit message]”</h4></li>
+<p>This command records or snapshots the changes permanently in the version history of the repository.</p>
+<li><h4>git commit -a</h4></li>
+<p>This command commits all the modified or created files to the repository.</p>
+<li><h4>git reset [file]</h4></li>
+<p>This command unstage a file without any change in the working directory.</p>
+<li><h4>git reset [commit]</h4></li>
+<p>This command undoes all the commits after the specific commit mentioned and preserves the changes locally.</p>
+<li><h4>This command undoes all the commits after the specific commit mentioned and preserves the changes locally.</h4></li>
+<p>This command discards all history and goes back to the specific commit mentioned ..</p>
+       </ul>
+</article>
+    
+    <article>
+      <h2>BRANCH AND MERGE</h2>
+      <ul>
+ <li><h4>git branch</h4></li>
+<p>This command lists the branches available in the repository.</p>
+        <li><h4>git branch [branch name]</h4></li>
+<p>This command creates a new branch.</p>
+        <li><h4>git branch -d [branch name]</h4></li>
+<p>This command deletes the feature branch.</p>
+        <li><h4>git checkout [branch name]</h4></li>
+<p>This command is used to checkout to the branch specified.</p>
+        <li><h4>git checkout -b [branch name]</h4></li>
+<p>This command creates a new branch and then checks out to the same.</p>
+          <li><h4>git merge [branch name]</h4></li>
+<p>This command merges specified branches to the current branch.</p>
+      </ul>
+</article>
+    
+    <article>
+      <h2>LOGS AND REVIEW</h2>
+      <ul>
+        <li><h4>git log</h4></li>
+<p>This command is used to list the version history for the current branch.</p>
+          <li><h4>git log -follow [file]</h4></li>
+<p>This command particularly shows the versions of the file mentioned.</p>
+        <li><h4>git show [commit]</h4></li>
+<p>This command shows the content change and metadata status of the specific commit. </p>
+      </ul>
+</article>
+    
+    <article>
+      <h2>REMOTE UPDATE AND SHARE</h2>
+      <ul>
+        <li><h4>git remote add [variable name] [URL]</h4></li>
+<p>This command is used to connect your local repository to the remote server.</p>
+          <li><h4>git push [variable name] [branch name]</h4></li>
+<p>This command sends the branch commits to your remote server</p>
+        <li><h4>git push --set-upstream [variable name] [branch name] or git push -u origin [branch name]</h4></li>
+<p>If branch is newly created, then we can upload with above command </p>
+          <li><h4>git push [variable name] master</h4></li>
+<p>This command sends the committed changes of the master branch to your remote repository.</p>
+        <li><h4>git push -all [variable name]</h4></li>
+<p>This command pushes all branches to your remote repository.</p>
+        <li><h4>git pull [repository link]</h4></li>
+<p>This command fetches and merges changes on the remote server to your working directory. </p>
+      </ul>
+</article>
+    
   </body>
 </html>

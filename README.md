@@ -1,3 +1,2 @@
 # LU-2
-Letsupgrade class 2
-All the git commands.
+Letsupgrade class 2 -  All the git commands.
